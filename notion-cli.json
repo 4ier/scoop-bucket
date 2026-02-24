@@ -1,31 +1,22 @@
 {
-  "version": "0.2.0",
-  "description": "Full-featured CLI for Notion. Like gh for GitHub, but for Notion.",
-  "homepage": "https://github.com/4ier/notion-cli",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/4ier/notion-cli/releases/download/v0.2.0/notion-cli_0.2.0_windows_amd64.zip",
-      "hash": "bf7c62c0d00baa4ea6d978a73d3ef4af270fa0d02145bee9dbf13bf09713962d",
-      "bin": "notion.exe"
-    },
-    "arm64": {
-      "url": "https://github.com/4ier/notion-cli/releases/download/v0.2.0/notion-cli_0.2.0_windows_arm64.zip",
-      "hash": "1907798dbc1f8bf740236eb74361f6ce34996fb8d60a75e7154d1647e55619d3",
-      "bin": "notion.exe"
-    }
-  },
-  "checkver": {
-    "github": "https://github.com/4ier/notion-cli"
-  },
-  "autoupdate": {
+    "version": "0.3.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/4ier/notion-cli/releases/download/v$version/notion-cli_$version_windows_amd64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/4ier/notion-cli/releases/download/v$version/notion-cli_$version_windows_arm64.zip"
-      }
-    }
-  }
+        "64bit": {
+            "url": "https://github.com/4ier/notion-cli/releases/download/v0.3.0/notion-cli_0.3.0_windows_amd64.zip",
+            "bin": [
+                "notion.exe"
+            ],
+            "hash": "aadf7913e8af88a6cb84552d4ea04b2e55e6058270881ea797516372bc2a2e51"
+        },
+        "arm64": {
+            "url": "https://github.com/4ier/notion-cli/releases/download/v0.3.0/notion-cli_0.3.0_windows_arm64.zip",
+            "bin": [
+                "notion.exe"
+            ],
+            "hash": "f0a6bffddb047ed20c9024dc90337aa954c3a3b2f19c4a3a81ec608d80bec5d0"
+        }
+    },
+    "homepage": "https://github.com/4ier/notion-cli",
+    "license": "MIT",
+    "description": "Full-featured CLI for Notion. Like gh for GitHub, but for Notion."
 }
