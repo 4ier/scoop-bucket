@@ -1,19 +1,19 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/4ier/notion-cli/releases/download/v0.3.0/notion-cli_0.3.0_windows_amd64.zip",
+            "url": "https://github.com/4ier/notion-cli/releases/download/v0.3.1/notion-cli_0.3.1_windows_amd64.zip",
             "bin": [
                 "notion.exe"
             ],
-            "hash": "aadf7913e8af88a6cb84552d4ea04b2e55e6058270881ea797516372bc2a2e51"
+            "hash": "07c70ee3fb1c7e6223b90f835bbff494be8305dee33d1d7fa54f2be6edd4dde4"
         },
         "arm64": {
-            "url": "https://github.com/4ier/notion-cli/releases/download/v0.3.0/notion-cli_0.3.0_windows_arm64.zip",
+            "url": "https://github.com/4ier/notion-cli/releases/download/v0.3.1/notion-cli_0.3.1_windows_arm64.zip",
             "bin": [
                 "notion.exe"
             ],
-            "hash": "f0a6bffddb047ed20c9024dc90337aa954c3a3b2f19c4a3a81ec608d80bec5d0"
+            "hash": "339dd03f05d952dc581da6ee3ee583f8a65e23013f28ecbe74280d335e58186e"
         }
     },
     "homepage": "https://github.com/4ier/notion-cli",
