@@ -6,14 +6,14 @@
             "bin": [
                 "notion.exe"
             ],
-            "hash": "0c6fb46c12028ea5bae8bd5cb6d290133940717350533a0e03e2812fd0477c77"
+            "hash": "2cf621f0dfc217a8a0e0095d13441853d716bf5fa53ee49cd8c3b84fd5b95a5b"
         },
         "arm64": {
             "url": "https://github.com/4ier/notion-cli/releases/download/v0.4.0/notion-cli_0.4.0_windows_arm64.zip",
             "bin": [
                 "notion.exe"
             ],
-            "hash": "b86dda74d373fe677c05d31d1c8527fd2906ca142e4e399fcae9d6670499a6cc"
+            "hash": "39f9a15c7e3680934410f92d35f62b5185b1c51809ecb35d1401c70716ac070f"
         }
     },
     "homepage": "https://github.com/4ier/notion-cli",
